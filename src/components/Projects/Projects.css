@@ -1,0 +1,85 @@
+.project{
+    padding:  0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+}
+
+.p-left{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    position: relative;
+}
+.p-left>span:nth-child(1)
+{
+    font-size: 3rem;
+    color: aqua;
+    
+}.p-left>span:nth-child(2)
+{
+    font-size: 3rem;
+    color: rgb(95, 15, 15);
+    
+}
+.p-right{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid red
+
+}
+.proj1{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 13rem;
+    border-radius: 2rem;
+    position: relative;
+}
+.proj1>img{
+    height: 12rem;
+    opacity: 0.8;
+    border-radius: 2rem;
+
+}
+.image-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    }
+.proj1:hover .image-text {
+        display: flex;
+        border-radius: 2rem;
+
+        flex-direction: column;
+        filter: grayscale(0%);
+        transition: 0.3s all ease-in-out;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+.proj1>span{
+    color: rgb(131, 31, 31);
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.proj1>img:hover{
+    opacity: 1;
+    filter: grayscale(0%);
+    cursor: pointer;
+    border-radius: 2rem;
+
+}

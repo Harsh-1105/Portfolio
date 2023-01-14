@@ -1,0 +1,56 @@
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.p-blur1{
+    left: 38rem;
+    top:-9rem;
+    width: 30%;
+}
+.portfolio span:nth-of-type(1)
+{
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: bold;
+    
+}.portfolio span:nth-of-type(2)
+{
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+/* slider */
+.portfolio .swiper{
+    overflow:  visible !important;
+}
+.portfolio-slider{
+    margin-top: 3rem;
+    width: 100%;
+
+}
+.portfolio-slider .swiper-slide{
+    border-radius: 20rem;
+
+}
+
+.portfolio img{
+    transform: scale(0.6);
+    border-radius: 20px;
+    filter : drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+}
+
+@media screen and (max-width: 480px) {
+    #c102{
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+    #c103{
+        margin-left: 2rem;
+    }
+    
+   
+}
